@@ -1,10 +1,10 @@
 /*
  * @Author: lihuan
  * @Date: 2021-10-05 09:04:10
- * @LastEditTime: 2021-10-05 15:36:29
+ * @LastEditTime: 2021-10-08 08:54:00
  * @Email: 17719495105@163.com
  */
 
-export const R_INCREAMENT = 'Conter/R_INCREAMENT';
+export const CHANGE_INCREAMENT = 'Conter/CHANGE_INCREAMENT';
 
-export const W_INCREAMENT = 'Conter/W_INCREAMENT';
+export const FETCH_INCREAMENT = 'Conter/FETCH_INCREAMENT';

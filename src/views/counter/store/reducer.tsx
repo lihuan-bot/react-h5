@@ -1,7 +1,7 @@
 /*
  * @Author: lihuan
  * @Date: 2021-10-05 09:03:54
- * @LastEditTime: 2021-10-05 16:27:48
+ * @LastEditTime: 2021-10-08 08:54:34
  * @Email: 17719495105@163.com
  */
 
@@ -19,7 +19,7 @@ const defaultState: ICounter = {
 
 const counterReducer = produce((draft: Draft<ICounter>, action: CounterActionTypes) => {
   switch (action.type) {
-    case actionTypes.R_INCREAMENT:
+    case actionTypes.CHANGE_INCREAMENT:
       draft.num = draft.num + action.payload.num;
 
       break;
